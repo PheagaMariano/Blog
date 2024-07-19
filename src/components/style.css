@@ -1,0 +1,43 @@
+body,
+ul,
+li,
+p,
+a,
+label,
+input,
+div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+.infoMore {
+    color: green !important;
+}
+
+h1 {
+    color: rgb(0, 0, 0) !important;
+}
+
+/* .bi-chevron-right {
+    color: green;
+} */
+
+.imgCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

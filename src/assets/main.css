@@ -6,7 +6,9 @@
   padding: 2rem;
   font-weight: normal;
 }
-
+a {
+  color: blue;
+}
 a,
 .green {
   text-decoration: none;
