@@ -6,16 +6,57 @@
   padding: 2rem;
   font-weight: normal;
 }
-a {
-  color: blue;
-}
+
+body,
+ul,
+li,
+p,
 a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+label,
+input,
+div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important;
 }
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+.infoMore {
+    color: green !important;
+}
+
+h1 {
+    color: rgb(0, 0, 0) !important;
+}
+
+/* .bi-chevron-right {
+    color: green;
+} */
+
+.imgCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
 
 @media (hover: hover) {
   a:hover {
@@ -25,12 +66,11 @@ a,
 
 @media (min-width: 1024px) {
   body {
-    display: flex;
     place-items: center;
   }
 
   #app {
-    display: grid;
+    display: flexbox;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
